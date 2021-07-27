@@ -10,6 +10,7 @@ def main():
   t=Turtle()
   s = Screen()
 #set bg color and tweak turtle
+  t._tracer(0)
   s.bgcolor('Black')
   t.speed(0)
   t.penup()
@@ -30,6 +31,9 @@ def main():
       t.dot(size,colors[2])
     elif x>=50:
       t.dot(size,colors[0])
+
+    if y>75:
+      t.dot(size,'green')
 
 
   s.mainloop()
