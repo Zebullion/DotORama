@@ -33,7 +33,7 @@ def main():
       t.dot(size,colors[0])
 
     if y>75:
-      t.dot(size,'green')
+      t.dot(size,'green') 
 
 
   s.mainloop()
